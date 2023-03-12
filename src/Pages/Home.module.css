@@ -17,6 +17,11 @@
   justify-content: center;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .branding {
   margin-top: 1rem;
   font-size: 1.25rem;
@@ -105,16 +110,34 @@
   .navbar {
     justify-content: space-between;
   }
+
+  .buttons {
+    display: flex;
+    justify-content: start;
+  }
 }
 
-/*Media query between 1000px and 1200px*/
-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+/*Media query between 910px and 1200px*/
+@media only screen and (min-width: 910px) and (max-width: 1200px) {
   .first_view {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .fv_texts {
     text-align: left;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .mark_star1 {
+    display: block;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: start;
   }
 }
 

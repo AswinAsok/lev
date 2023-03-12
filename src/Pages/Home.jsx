@@ -3,8 +3,24 @@ import styles from "./Home.module.css"
 
 import datajson from "./data.json"
 
+import axios from "axios"
+
 const Home = () => {
   const [data, setData] = useState([])
+  const [stars, setStars] = useState(0)
+
+  useEffect(() => {
+    axios
+      .get("https://api.github.com/repos/AswinAsok/lev")
+      .then((response) => {
+        // handle success
+        setStars(response.data.stargazers_count)
+      })
+      .catch((error) => {
+        // handle error
+        console.log(error)
+      })
+  }, [])
 
   useEffect(() => {
     // Fetch the holiday data and set it in the state
@@ -54,7 +70,7 @@ const Home = () => {
               <p className={styles.branding}>Lev.</p>
               <p className={styles.b_tagline}>Holidays, at your fingertips</p>
             </div>
-            <button className={styles.mark_star1}>Star Github</button>
+            <button className={styles.mark_star1}>{stars} Stars</button>
           </div>
           <div className={styles.first_view}>
             <img
@@ -70,8 +86,16 @@ const Home = () => {
                 Lev is a platform that allows you to find when is the next
                 holiday, so that you can work more.
               </p>
-              <button className={styles.mark_star}>Star Github</button>
-              <button className={styles.follow_me}>Follow Me</button>
+              <div className={styles.buttons}>
+                <button className={styles.mark_star}>{stars} Stars</button>
+                <a
+                  href="http://github.com/AswinAsok"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className={styles.follow_me}>Follow Me</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
