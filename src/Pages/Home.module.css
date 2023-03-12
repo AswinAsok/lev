@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.first_view_container {
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+}
+
+.navbar {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.branding {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.b_tagline {
+  font-size: 0.9rem;
+}
+
+.first_view {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fv_texts {
+  text-align: center;
+}
+
+.fv_heading {
+  font-size: 2.75rem;
+  max-width: 30rem;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+}
+
+.fv_tagline {
+  font-size: 1rem;
+  max-width: 30rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.mark_star,
+.mark_star1 {
+  background-color: #fff;
+  padding: 0.25rem 0.75rem;
+  border: 2px solid #2d2d2d;
+  border-radius: 3px;
+  margin: 0.5rem;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.mark_star1 {
+  display: none;
+}
+
+.follow_me {
+  background-color: #fff;
+  padding: 0.25rem 0.75rem;
+  border: 2px solid #2d2d2d;
+  border-radius: 3px;
+  margin: 0.5rem;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.fv_image {
+  max-width: 25rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .fv_image {
+    max-width: 30rem;
+  }
+
+  .mark_star1 {
+    display: block;
+  }
+
+  .first_view {
+    justify-content: space-between;
+  }
+
+  .fv_texts {
+    text-align: left;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+/*Media query between 1000px and 1200px*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .first_view {
+    justify-content: space-evenly;
+  }
+
+  .fv_texts {
+    text-align: left;
+  }
+}
+
+/* Second View Styles */
+
+.second_view_container {
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+}
+
+.second_view {
+  margin: 1rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.sv_heading {
+  font-size: 1.75rem;
+  max-width: 30rem;
+}
+
+.sv_tagline {
+  font-size: 1rem;
+  max-width: 30rem;
+}
+
+.card_container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative; /* Add position relative to parent */
+}
+
+.card::before {
+  /* Add secondary border using ::before pseudo-element */
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: -8px;
+  right: -6px;
+  border: 2px solid #f0f0f0;
+  border-radius: 7px;
+  z-index: -1; /* Send to the back */
+}
+
+.holiday_name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.holiday_type {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.holiday_description {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.holiday_date {
+  font-size: 0.8rem;
+}
+
+.countdown {
+  font-weight: 600;
+}

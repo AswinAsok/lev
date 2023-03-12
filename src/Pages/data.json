@@ -1,0 +1,212 @@
+[
+  {
+    "Date": "2023-01-26",
+    "Name": "Republic Day",
+    "Year": 2023,
+    "Month": 1,
+    "Day": 26,
+    "Weekday": "Thu",
+    "Types": "National holiday",
+    "Description": "A national holiday in India, celebrated on January 26 every year to commemorate the day when the Constitution of India came into effect in 1950."
+  },
+  {
+    "Date": "2023-02-14",
+    "Name": "Valentine's Day",
+    "Year": 2023,
+    "Month": 2,
+    "Day": 14,
+    "Weekday": "Tue",
+    "Types": "Observance",
+    "Description": "A day observed globally as a celebration of love and affection among romantic partners, friends, and family members."
+  },
+  {
+    "Date": "2023-03-02",
+    "Name": "Holi",
+    "Year": 2023,
+    "Month": 3,
+    "Day": 2,
+    "Weekday": "Thu",
+    "Types": "Regional holiday",
+    "Description": "A Hindu festival celebrated in India and Nepal, known as the 'festival of colors' or 'festival of love', to signify the victory of good over evil and the arrival of spring."
+  },
+  {
+    "Date": "2023-03-29",
+    "Name": "Mahavir Jayanti",
+    "Year": 2023,
+    "Month": 3,
+    "Day": 29,
+    "Weekday": "Wed",
+    "Types": "Optional holiday",
+    "Description": "A Jain festival celebrated to honor the birth anniversary of Lord Mahavira, the last and 24th Tirthankara (enlightened being) of Jainism."
+  },
+  {
+    "Date": "2023-04-14",
+    "Name": "Good Friday",
+    "Year": 2023,
+    "Month": 4,
+    "Day": 14,
+    "Weekday": "Fri",
+    "Types": "Regional holiday",
+    "Description": "A Christian holiday commemorating the crucifixion and death of Jesus Christ, observed on the Friday before Easter Sunday."
+  },
+  {
+    "Date": "2023-04-15",
+    "Name": "Biju Festival",
+    "Year": 2023,
+    "Month": 4,
+    "Day": 15,
+    "Weekday": "Sat",
+    "Types": "Regional holiday",
+    "Description": "A festival celebrated by the Kondh tribe in the Indian state of Odisha to mark the beginning of the agricultural season and seek blessings for a good harvest."
+  },
+  {
+    "Date": "2023-05-01",
+    "Name": "May Day",
+    "Year": 2023,
+    "Month": 5,
+    "Day": 1,
+    "Weekday": "Mon",
+    "Types": "National holiday",
+    "Description": "A public holiday celebrated globally as International Workers' Day, to commemorate the social and economic achievements of the labor movement."
+  },
+  {
+    "Date": "2023-06-18",
+    "Name": "Father's Day",
+    "Year": 2023,
+    "Month": 6,
+    "Day": 18,
+    "Weekday": "Sun",
+    "Types": "Observance",
+    "Description": "Honoring fathers and father figures, expressing gratitude for their love, support, and guidance."
+  },
+  {
+    "Date": "2023-07-09",
+    "Name": "Guru Purnima",
+    "Year": 2023,
+    "Month": 7,
+    "Day": 9,
+    "Weekday": "Sun",
+    "Types": "Optional holiday",
+    "Description": "Paying homage to teachers, seeking blessings for wisdom and knowledge."
+  },
+  {
+    "Date": "2023-08-15",
+    "Name": "Independence Day",
+    "Year": 2023,
+    "Month": 8,
+    "Day": 15,
+    "Weekday": "Tue",
+    "Types": "National holiday",
+    "Description": "Celebrating India's independence from British rule in 1947."
+  },
+  {
+    "Date": "2023-09-04",
+    "Name": "Labor Day",
+    "Year": 2023,
+    "Month": 9,
+    "Day": 4,
+    "Weekday": "Mon",
+    "Types": "National holiday",
+    "Description": "Honoring the contributions and achievements of workers."
+  },
+  {
+    "Date": "2023-09-21",
+    "Name": "Muharram",
+    "Year": 2023,
+    "Month": 9,
+    "Day": 21,
+    "Weekday": "Thu",
+    "Types": "Regional holiday",
+    "Description": "Commemorating the martyrdom of Imam Hussain and his companions."
+  },
+  {
+    "Date": "2023-10-02",
+    "Name": "Mahatma Gandhi Jayanti",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 2,
+    "Weekday": "Mon",
+    "Types": "National holiday",
+    "Description": "Celebrating the birth anniversary of Mahatma Gandhi, the Father of the Nation."
+  },
+  {
+    "Date": "2023-10-08",
+    "Name": "Dussehra",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 8,
+    "Weekday": "Sun",
+    "Types": "National holiday",
+    "Description": "Marking the victory of good over evil and the end of Navratri."
+  },
+  {
+    "Date": "2023-10-18",
+    "Name": "Karva Chauth",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 18,
+    "Weekday": "Wed",
+    "Types": "Regional holiday",
+    "Description": "Fasting day for married women for the longevity and well-being of their husbands."
+  },
+  {
+    "Date": "2023-10-19",
+    "Name": "Naraka Chaturdashi",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 19,
+    "Weekday": "Thu",
+    "Types": "Regional holiday",
+    "Description": "Celebrating the victory of Lord Krishna over the demon Narakasura."
+  },
+  {
+    "Date": "2023-10-20",
+    "Name": "Diwali",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 20,
+    "Weekday": "Fri",
+    "Types": "National holiday",
+    "Description": "Festival of lights, symbolizing the triumph of light over darkness and knowledge over ignorance."
+  },
+  {
+    "Date": "2023-10-21",
+    "Name": "Govardhan Puja",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 21,
+    "Weekday": "Sat",
+    "Types": "Regional holiday",
+    "Description": "Honoring Lord Krishna's lifting of the Govardhan Hill to protect his people from Indra's wrath."
+  },
+  {
+    "Date": "2023-10-22",
+    "Name": "Bhai Dooj",
+    "Year": 2023,
+    "Month": 10,
+    "Day": 22,
+    "Weekday": "Sun",
+    "Types": "Regional holiday",
+    "Description": "Celebrating the bond between brothers and sisters, and praying for their well-being."
+  },
+  {
+    "Date": "2023-11-04",
+    "Name": "Guru Nanak Jayanti",
+    "Year": 2023,
+    "Month": 11,
+    "Day": 4,
+    "Weekday": "Sat",
+    "Types": "National holiday",
+    "Description": "Celebrating the birth anniversary of Guru Nanak, the founder of Sikhism."
+  },
+  {
+    "Date": "2023-12-25",
+    "Name": "Christmas",
+    "Year": 2023,
+    "Month": 12,
+    "Day": 25,
+    "Weekday": "Mon",
+    "Types": "Regional holiday",
+    "Description": "Celebrating the birth of Jesus Christ."
+  }
+]
