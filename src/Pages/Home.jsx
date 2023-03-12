@@ -70,7 +70,9 @@ const Home = () => {
               <p className={styles.branding}>Lev.</p>
               <p className={styles.b_tagline}>Holidays, at your fingertips</p>
             </div>
-            <button className={styles.mark_star1}>{stars} Stars</button>
+            <a href="https://github.com/AswinAsok/lev" target="_blank" rel="noopener noreferrer">
+                <button className={styles.mark_star}>{stars} Stars</button>
+                </a>
           </div>
           <div className={styles.first_view}>
             <img
@@ -87,7 +89,9 @@ const Home = () => {
                 holiday, so that you can work more.
               </p>
               <div className={styles.buttons}>
+                <a href="https://github.com/AswinAsok/lev" target="_blank" rel="noopener noreferrer">
                 <button className={styles.mark_star}>{stars} Stars</button>
+                </a>
                 <a
                   href="http://github.com/AswinAsok"
                   target="_blank"
