@@ -91,6 +91,10 @@
   margin-left: -4rem;
 }
 
+.mark_star{
+  display: hidden;
+}
+
 @media only screen and (min-width: 992px) {
   .fv_image {
     max-width: 30rem;
@@ -117,12 +121,20 @@
     display: flex;
     justify-content: start;
   }
+
+  .mark_star{
+    display: block;
+  }
 }
 
 /*Media query between 910px and 1200px*/
 @media only screen and (min-width: 910px) and (max-width: 1200px) {
   .first_view {
     justify-content: space-between;
+  }
+
+  .mark_star{
+    display: block;
   }
 
   .fv_texts {

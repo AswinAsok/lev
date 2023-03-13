@@ -70,9 +70,13 @@ const Home = () => {
               <p className={styles.branding}>Lev.</p>
               <p className={styles.b_tagline}>Holidays, at your fingertips</p>
             </div>
-            <a href="https://github.com/AswinAsok/lev" target="_blank" rel="noopener noreferrer">
-                <button className={styles.mark_star}>{stars} Stars</button>
-                </a>
+            <a
+              href="https://github.com/AswinAsok/lev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className={styles.mark_star}>{stars} Stars</button>
+            </a>
           </div>
           <div className={styles.first_view}>
             <img
@@ -89,8 +93,12 @@ const Home = () => {
                 holiday, so that you can work more.
               </p>
               <div className={styles.buttons}>
-                <a href="https://github.com/AswinAsok/lev" target="_blank" rel="noopener noreferrer">
-                <button className={styles.mark_star}>{stars} Stars</button>
+                <a
+                  href="https://github.com/AswinAsok/lev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className={styles.mark_star}>{stars} Stars</button>
                 </a>
                 <a
                   href="http://github.com/AswinAsok"
@@ -143,8 +151,9 @@ const Home = () => {
             <div className={styles.sv_texts}>
               <p className={styles.sv_heading}>Previous Holidays</p>
               <p className={styles.sv_tagline}>
-                Get ready to celebrate! Listed below are your Upcoming holidays
-                - don't forget to mark your calendars.
+                Listed, below are the holidays that have already passed.
+                Holidays are meant to be celebrated, so don't forget to
+                celebrate them.
               </p>
             </div>
             <div className={styles.card_container}>
